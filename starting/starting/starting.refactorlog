@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="c3b68896-34e0-465c-b2b5-820f2fea12c6" ChangeDateTime="10/07/2020 15:22:12">
+    <Property Name="ElementName" Value="[dbo].[cureny].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[cureny]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="curency_code" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="23dfe675-5c68-45e4-a20e-71d7bef8fe70" ChangeDateTime="10/07/2020 15:23:25">
+    <Property Name="ElementName" Value="[dbo].[cureny].[Curency_name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[cureny]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="curency_name" />
+  </Operation>
+</Operations>
